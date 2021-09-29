@@ -239,7 +239,7 @@ Change Request 2054, 2065</revremark>
     <title>Replay Control</title>
     <para>This section defines a service for mapping replay endpoints to URI for use in RTSP.</para>
     <section>
-      <title>Request replay URI</title>
+      <title>GetReplayUri</title>
       <para>GetReplayUri requests a URI that can be used to initiate playback of a recorded stream using RTSP as the control protocol. The URI is valid only as it is specified in the response. A device supporting the Replay Service shall support the GetReplayUri command.</para>
       <variablelist role="op">
         <varlistentry>
@@ -272,7 +272,7 @@ Change Request 2054, 2065</revremark>
         <varlistentry>
           <term>access class</term>
           <listitem>
-            <para role="param">READ_MEDIA</para>
+            <para role="access">READ_MEDIA</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -308,7 +308,7 @@ Change Request 2054, 2065</revremark>
         <varlistentry>
           <term>access class</term>
           <listitem>
-            <para role="param">ACTUATE</para>
+            <para role="access">ACTUATE</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -339,7 +339,7 @@ Change Request 2054, 2065</revremark>
         <varlistentry>
           <term>access class</term>
           <listitem>
-            <para role="param">READ_MEDIA</para>
+            <para role="access">READ_MEDIA</para>
           </listitem>
         </varlistentry>
       </variablelist>
@@ -370,7 +370,7 @@ Change Request 2054, 2065</revremark>
         <varlistentry>
           <term>access class</term>
           <listitem>
-            <para role="param">PRE_AUTH</para>
+            <para role="access">PRE_AUTH</para>
           </listitem>
         </varlistentry>
       </variablelist>
